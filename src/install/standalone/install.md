@@ -50,6 +50,14 @@ mv /opt/spark-2.2.3-bin-hadoop2.7 /opt/spark
     server2
     ```
 
++ 配置 spark-config.sh
+
+    将 JAVA_HOME 添加到 sbin/spark-config.sh 中
+
+    ``` shell
+    export JAVA_HOME=/usr/local/jdk/
+    ```
+
 + 同步安装包到所有主机上
 
     将 /opt/spark 下所有文件同步到 server2 上
